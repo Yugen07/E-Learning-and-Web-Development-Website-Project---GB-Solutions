@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Group Bagsik">
+    <meta name="description" content="This is our website project for the subject TCC 226 E-Learning and Web Development.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dealing with Rootkit</title>
+    <link rel="website icon" type="png" href="/img/logo-icon.png">
+    <link rel="stylesheet" href="/css/Security Strategies/Strat-lab5.4.css">
+    <link rel="stylesheet" href="/css/mainstyle.css">
+</head>
+<body>
+    <header>
+            <div class="menu">
+                <img src="/img/menu.png" alt="Menu Bar" class="dropdownbtn">
+                <ul class="submenu">
+                    <li id="first"><a href="/html/Tutorials/Maintaining Windows/1.0MWinIndex.html">Maintaining Windows</a>
+                        <ul id="mWin">
+                            <li><a href="/html/Tutorials/Maintaining Windows/1.1 Installing Updates/1.1Win10InstallingUpdates.html">1.1 Installing Updates</a></li>
+                            <li><a href="/html/Tutorials/Maintaining Windows/1.2 Managing Software/3.0UninstallSoftware.html">1.2 Managing Software</a></li>
+                            <li><a href="/html/Tutorials/Maintaining Windows/1.3 Managing Drivers/1.0UpdateDrivers.html">1.3 Managing Drivers</a></li>
+                            <li><a href="/html/Tutorials/Maintaining Windows/1.4 Scanning for Malware/1UsingWinSecurity.html">1.4 Scanning for Malware</a></li>
+                            <li><a href="/html/Tutorials/Maintaining Windows/1.5 Troubleshooting Issues/TroubleshootingIssues.html">1.5 Troubleshooting Issues</a></li>
+                        </ul>
+                    </li>
+                    <li id="second"><a href="/html/Tutorials/Troubleshooting Windows/2.0TrWinIndex.html">Troubleshooting Windows</a>
+                        <ul id="trWin">
+                            <li><a href="/html/Tutorials/Troubleshooting Windows/2.1ApplyRestorePoint.html">2.1 Apply a Restore Point</a></li>
+                            <li><a href="/html/Tutorials/Troubleshooting Windows/2.2UpdateVideoDrivers.html">2.2 Update Video Drivers</a></li>
+                            <li><a href="/html/Tutorials/Troubleshooting Windows/2.3UseMSE.html">2.3 Download and Use Microsoft Security Essentials</a></li>
+                            <li><a href="/html/Tutorials/Troubleshooting Windows/2.4FIndADriver.html">2.4 Find a Driver for Unknown Device</a></li>
+                            <li><a href="/html/Tutorials/Troubleshooting Windows/2.5ResearchDataRecovery.html">2.5 Research Data Recovery Software</a></li>
+                        </ul>
+                    </li>
+                    <li id="third"><a href="/html/Tutorials/Troubleshooting Windows Startup/3.0TrWinStartIndex.html">Troubleshooting Windows Startup</a>
+                        <ul id="trWinStart">
+                            <li><a href="/html/Tutorials/Troubleshooting Windows Startup/3.1 Restart your Computer/3.1RestartyourComputer.html">3.1 Restart Your Computer</a></li>
+                            <li><a href="/html/Tutorials/Troubleshooting Windows Startup/3.2 Check for Extrernal Drives/1CheckforExternalDrives.html">3.2 Check for External Device</a></li>
+                            <li><a href="/html/Tutorials/Troubleshooting Windows Startup/3.3 boot into safe mode/3.3BootIntoSafeMode.html">3.3 Boot Into Safe Mode</a></li>
+                            <li><a href="/html/Tutorials/Troubleshooting Windows Startup/3.4 run windows startup repair/3.4RunWindowsStartupRepair.html">3.4 Run Windows Startup Repair</a></li>
+                            <li><a href="/html/Tutorials/Troubleshooting Windows Startup/3.5 check disk errors/1CheckDiskforErrors.html">3.5 Check Disk for Errors</a></li>
+                            <li><a href="/html/Tutorials/Troubleshooting Windows Startup/3.6 system restore/1SystemRestore.html">3.6 System Restore</a></li>
+                            <li><a href="/html/Tutorials/Troubleshooting Windows Startup/3.7 check for windows update/3.7CheckforWindowsUpdates.html">3.7 Check for Windows Updates</a></li>
+                            <li><a href="/html/Tutorials/Troubleshooting Windows Startup/3.8 drivers updates/3.8DriverUpdates.html">3.8 Driver Updates</a></li>
+                            <li><a href="/html/Tutorials/Troubleshooting Windows Startup/3.9 scan for malware/1ScanforMalware.html">3.9 Scan for Malware</a></li>
+                            <li><a href="/html/Tutorials/Troubleshooting Windows Startup/3.10 check hardware/1CheckHardware.html">3.10 Check Hardware</a></li>
+                            <li><a href="/html/Tutorials/Troubleshooting Windows Startup/3.11 backup your data/1BackupYourData.html">3.11 Backup Your Data</a></li>
+                        </ul>
+                    </li>
+                    <li id="fourth"><a href="/html/Tutorials/Troubleshooting Computer Networks/4.0TrComNetIndex.html">Troubleshooting Computer Networks</a>
+                        <ul id="trNet">
+                            <li><a href="/html/Tutorials/Troubleshooting Computer Networks/4.1ChecktheHardware.html">4.1 Check the Hardware</a></li>
+                            <li><a href="/html/Tutorials/Troubleshooting Computer Networks/4.2UseIPConfig.html">4.2 Use ipconfig</a></li>
+                            <li><a href="/html/Tutorials/Troubleshooting Computer Networks/4.3UsePingandTracert.html">4.3 Use ping and tracert</a></li>
+                            <li><a href="/html/Tutorials/Troubleshooting Computer Networks/4.4PerformDNSCheck.html">4.4 Perform DNS check</a></li>
+                            <li><a href="/html/Tutorials/Troubleshooting Computer Networks/4.5ContacttheISP.html">4.5 Contact the ISP</a></li>
+                            <li><a href="/html//Tutorials/Troubleshooting Computer Networks/4.6CheckonVirusandMalwareProtection.html">4.6 Check on Virus and Malware Protection</a></li>
+                            <li><a href="/html/Tutorials/Troubleshooting Computer Networks/4.7ReviewDatabaseLogs.html">4.7 Review Database Logs</a></li>
+                        </ul>
+                    </li>
+                    <li id="fifth"><a href="/html/Tutorials/Security Strategies/5.0SecStratWin.html">Security Strategies</a>
+                        <ul id="secStrat">
+                            <li><a href="/html/Tutorials/Security Strategies/Strat-lab5.1.html">5.1 Monitor Security Events in Windows 10</a></li>
+                            <li><a href="/html/Tutorials/Security Strategies/Strat-lab5.2.html">5.2 Audit Access to Private Folders</a></li>
+                            <li><a href="/html/Tutorials/Security Strategies/Strat-lab5.3.html">5.3 Use Encryption</a></li>
+                            <li><a href="/html/Tutorials/Security Strategies/Strat-lab5.4.html">5.4 Dealing with Rootkit</a></li>
+                            <li><a href="/html/Tutorials/Security Strategies/Strat-lab5.5.html">5.5 Secure a Workstation</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="name-logo">
+                <img src="/img/logo.png" alt="This is our Logo." id="web-logo">
+                <h1>GB Solutions</h1>
+            </div>
+    </header>
+    <nav>
+        <ul id="navBar">
+            <li><a href="/html/1homepage.html" class="navBar">Home</a></li>
+            <li><a href="/html/2tutorials.html" class="navBar">Tutorials</a></li>
+            <li><a href="/html/3exercises.html" class="navBar">Exercises</a></li>
+            <li><a href="/html/4aboutus.html" class="navBar">About Us</a></li>
+        </ul>
+    </nav>
+
+
+
+    <main>
+
+        <div class="content">
+            <!-- ARI ISULOD TANAN NINYONG HIMUON -->
+            <H1 class="text">5.4 Dealing with Rootkit</H1>
+          
+            <hr>
+                <br>
+               <p> The AVG Rescue CD (for USB stick) zip file has been stored on a network share. Ask your instructor for the location of this file and record the location here:</p>
+               <br>
+               <p>CREATE AND BOOT FROM THE AVG RESCUE USB FLASH DRIVE  steps to create a bootable USB flash drive that contains the AVG Rescue CD (for USB stick)</p>
+               <br>
+               <ul>
+                <li>1. Log on as an administrator.   </li>
+                <br>
+                <li>2. Plug in your USB flash drive. What drive letter did Windows assign to the drive</li>
+                <br>
+                <li>3. Open your browser and go to www.avg.com/us-en/avg-rescue-cd#content. Click System Requirements. How much RAM and hard disk space is required for this installation? </li>
+                <br>
+                <li>4. Click the Free Download button. What are the three types of files available for download? </li>
+                <br>
+                <li>5. In the real world, you would download the Rescue CD zip file from the AVG web site. To save you time, however, in this lab the file has been stored on a network share. Copy the Rescue CD (for USB stick) zip file from the share to your desktop. What is the name of the zip file?</li>
+                <br>
+                <li>6. Right-click the zip file and select Extract All from the shortcut menu. The default extract location is your desktop. Allow this default. Click Extract. The extracted folder should now open in a window on your desktop. </li>
+                <br>
+                <li>7. Double-click the setup.exe file. If the UAC box pops up, click Yes to continue. Select the drive letter of the USB flash drive and click Install. After about a, minute, the Success box pops up. What does the message say in the box?</li>
+                <br>
+                <li>• You are now ready to boot from the USB Flash drive, which loads the Linux operating system . You can use the anti-malware software on the flash drive to scan the system. 
+                    >> Follow these steps: </li>
+                <br>
+                <li>1. Shut down the system and reboot your computer to the USB flash drive. You might need to go into the BIOS setup to change the boot device priority order so you can boot to </li>
+                <br>
+                <li>2. When the system boots to the USB flash drive, an initial menu appears. You can let the USB drive. A USB device might appear in the BIOS setup as a Removable Drive. menu time out, or press Enter to select AVG Rescue CD</li>
+                <br>
+                <li>3. I agree is selected by default. Press Enter. If you see an information box saying, Internet connection is not available, highlight OK and press Enter to continue. AVG Rescue CD mounts the Windows partitions and the Main Menu appears </li>
+                <br>
+                <img src="/img/ss5.png" alt="ss5" id="ss5">
+                <br>
+                <li>4. Using the AVG Rescue CD program, you can use the arrow keys to move through a list and the Tab key to toggle between choices of action. Alternatively, you can enter the first letter (in bold red) of any selection to highlight it. Use the arrow keys to scroll down to Utilities. Select is highlighted by default. Press Enter to open the Utilities Menu. </li>
+                <br>
+                <li>5. If you don't have an Internet connection, skip the steps to update the virus database used by the AVG software. To skip this update, highlight Return and press Enter. The Main Menu appears. </li>
+                <br>
+                <li>If you have an Internet connection, follow these steps to update the virus database used by the AVG software: </li>
+                <br>
+                <li>1. Select Update from the Main Menu. Highlight Select and press Enter. The Update Type Menu appears. Select Online. Highlight Select and press Enter. 2. The Update Priority Configuration Menu appears. Leave priority </li>
+                <br>
+                <img src="/img/ss7.png" alt="ss7" id="ss7">
+                <br>
+                <li>2. Selected to update the virus database. With OK highlighted, press Enter. The update should take a minute or two to run. When completed, highlight Continue and press Enter.</li>
+                <br>
+                <p>PART 2: SCAN THE SYSTEM FOR MALWARE
+                    (The Main Menu is displayed.)
+                    </p>
+                <br>
+                <li> Do the following to perform the scan: </li>
+                <br>
+                <li>1.  Use the up arrow to highlight Scan. With Select highlighted, press Enter. Verify that Volumes is highlighted. With Select highlighted, press Enter. </li>
+                <br>
+                <li>2. The Scan Volumes menu comes up. You should see at least two volumes. One is your USB flash drive, and one is drive C: on your computer. You might see other volumes if there are other partitions, such as a hidden diagnostic partition or a second hard drive, on your computer</li>
+                <br>
+                <li>3. You should be able to tell which volume is the drive C: partition by the size of the partition. Deselect all partitions except the drive C: partition. Then, highlight OK and press Enter.</li>
+                <br>
+                <p>NOTES: To deselect or select options, highlight an option and press the Space Bar. Notice that you can selected options are those with asterisks. </p>
+                <br>
+                <li>4. The Scan Options menu appears. Review (do not change) the Scan Options. With the default options selected, highlight OK and press Enter. The scan begins. The scan could virus is found, you can let the scan complete or cancel the scan. To cancel the scan, take a long time to run, but it should find the EICAR Test virus right away. After the highlight Cancel and press Enter. </li>
+                <br>
+                <p>NOTES: To save time in this lab, you can point the scan to a specific folder where the EICAR_Test virus is located on drive C, or you can copy the EICAR_Test virus to your USB Flash drive and then search the flash drive</p>
+                <br>
+                <li>5. After the scan is completed or is canceled, the results screen appears. It should show at least one infection found. Highlight Continue and press Enter. The next page lists all rootkits, malware, and viruses found, and it presents options to deal with them all at once or individually. Verify that the eicar.org virus is selected (an asterisk appears beside it). Highlight Action and press Enter.</li>
+                <br>
+                <li>6. The Action Menu appears. </li>
+                <br>
+                <li>7. Suppose the EICAR Test file is a nasty file you don't want on your system. To delete it, arrow down to Delete, highlight Select and press Enter. To confirm the deletion, high- light OK and press Enter. The Scan Type Menu appears in case you want to scan other volumes or directories. We are finished, so right-arrow to Return and press Enter. Right- arrow to Exit and press Enter. Press Enter to verify you want to quit. If an Info window appears, highlight OK and press Enter. This will take you to the Linux command prompt. </li>
+                <br>
+                <li>8. Press Ctrl+Alt+Delete to reboot your system. You might need to go back into the BIOS setup to fix your boot settings so that you can start the system from the computer's hard drive.</li>
+                <br>
+                <li>9. Verify the EICAR test virus file is no longer on your drive C:. </li>
+                <br>
+                <li>10. Close any open windows.</li>
+               </ul>
+               
+
+               <br>
+
+               <button style="border: none; background: #fefefe; padding: 8px;
+                       font-size: 1em; font-weight: 700; border-radius: 5px; margin-top: 2em; cursor: pointer;" ><a href="5.0SecStratWin.html">Index</a></button>
+                               <button style="border: none; background: #fefefe; padding: 8px;
+                       font-size: 1em; font-weight: 700; border-radius: 5px; margin-top: 2em; cursor: pointer;" ><a href="Strat-lab5.3.html">Back</a></button>
+                       <button style="border: none; background: #fefefe; padding: 8px;
+                       font-size: 1em; font-weight: 700; border-radius: 5px; margin-top: 2em; cursor: pointer;" ><a href="Strat-lab5.5.html">Next</a></button>
+       
+               
+        </div>
+
+    </main>
+
+   
+
+
+
+
+    <aside>
+        <form id="questionForm">
+            <fieldset>
+                <legend>Questions?</legend>
+                <input type="text" name="name" id="name" placeholder="Name *">
+                <input type="email" name="email" id="email" placeholder="E-mail *">
+                <input type="tel" name="tel" id="tel" placeholder="Telephone *">
+                <input type="text" name="city" id="city" placeholder="City">
+                <input type="text" name="website" id="website" placeholder="Website">
+                <textarea name="message" id="message" cols="21" rows="5" placeholder="Message *" style="font-family: arial;"></textarea>
+                <button type="submit" id="submit" name="submit">Submit</button>
+            </fieldset>
+        </form>
+        <script src="/script/formhandler.js"></script>
+
+        <div class="social-plugins">
+            <h3>Social Plugins</h3>
+            <div class="social-pluginsContainer">
+                <a href="https://www.facebook.com/gb.solutions.202401/" target="_blank"><div class="socialmedia"><img src="/img/facebook.png" alt="FB Icon"><span>Facebook</span></div></a>
+                <a href="https://x.com/GBSolution6621" target="_blank"><div class="socialmedia"><img src="/img/twitter.png" alt="X Icon"><span>X</span></div></a>
+                <a href="https://www.youtube.com/channel/UC3Vx3tFLK5ngDNAvDmCmTww" target="_blank"><div class="socialmedia"><img src="/img/youtube.png" alt="Youtube Icon"><span>Youtube</span></div></a>
+                <a href="https://www.threads.net/@desu_desu07" target="_blank"><div class="socialmedia"><img src="/img/threads.png" alt="Threads Icon"><span>Threads</span></div></a>
+            </div>
+        </div>
+    </aside>
+    <footer>
+        <div class="footerContainer">
+            <p style="font-size: 20px; margin: 8px 0 15px 10px;">&copy 2024 GB Solutions - Empowering you to <strong>master the art of troubleshooting</strong>.</p>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="/html/1homepage.html">Home</a></li>
+                    <li><a href="/html/2tutorials.html">Tutorials</a></li>
+                    <li><a href="/html/3exercises.html">Exercises</a></li>
+                    <li><a href="/html/4aboutus.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
