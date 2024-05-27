@@ -1,0 +1,84 @@
+.content {
+    width: 70vw;
+    margin-inline: 20px;
+    border-radius: 3em;
+    padding-bottom: 2rem;
+}
+
+.content #quizForm {
+    color: white;
+}
+
+.content #quizForm fieldset {
+    padding: 3rem;
+    border: none;
+}
+
+.content #quizForm fieldset legend {
+    padding-block-start: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+form fieldset {
+    counter-reset: question;
+}
+
+hr {
+    margin-block-end: 2rem;
+}
+
+.question {
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+.choices {
+    line-height: 30px;
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+input[type="radio"] {
+    margin-inline-start: 1.4rem;
+    margin-inline-end: .7rem;
+    accent-color: black;
+}
+
+
+.question::before {
+    counter-increment: question;
+    content: counter(question) ". ";
+}
+
+#quizForm button[type="submit"] {
+    margin-inline-start: 65px;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #a4161a;
+    cursor: pointer;
+}
+
+.explanation, #scoreContainer {
+    padding-left: 60px;
+    translate: 0 -50px;
+}
+
+.explanation {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+#scoreContainer {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: white;
+}

@@ -1,0 +1,47 @@
+
+.content {
+    width: 70vw;
+    background: #a4161a;
+    border-radius: 3em;   
+    padding: 0 3em;
+    margin-inline-start: 20px;
+    color: white;
+}
+
+fieldset {
+    border: 1px solid white;
+    padding: 1em;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    line-height: 25px;
+}
+.text {
+    text-align: center;
+}
+.text1 {
+    font-size: 20px;
+}
+/* Buttons */
+#Bleft {
+    background: transparent;
+    border: none;
+    margin-bottom: 2em;
+}
+#Bright {
+    background: transparent;
+    border: none;
+    display: flex;
+    float: right;
+}
+#CHS{
+    border: none;
+    background: #fefefe;
+    padding: 8px;
+    font-size: 1em;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    translate: 30px 30px;
+}
+/* Buttons end */

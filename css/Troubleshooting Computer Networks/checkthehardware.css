@@ -1,0 +1,60 @@
+
+.content {
+    width: 70vw;
+    background: #96383c;
+    border-radius: 3em;   
+    padding: 0 3em;
+    color: white;
+}
+
+fieldset {
+    border: 1px solid white;
+    padding: 1em;
+    margin-top: 1em;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    line-height: 25px;
+}
+
+.text {
+    text-align: center;
+}
+.text1 {
+    margin-bottom: 15px;
+}
+.text2 {
+    background: aliceblue;
+    height: 10vh;
+    width: auto;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+.text3 {
+    background: aliceblue;
+    color: black;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+.options {
+    display: flex;
+    gap: 3em;
+    font-size: 20px;
+}
+#op1 a, #op2 a, #op3 a{
+    color: white;
+}
+.steps {
+    margin-top: 1em; 
+    list-style-type: square; 
+    margin-left: 2em;
+}
+.picture {
+    height: 40vh;
+}
+.picture2 {
+    width: 80vh;
+}

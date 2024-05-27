@@ -1,0 +1,30 @@
+.content {
+    width: 70vw;
+    background: #96383c;
+    border-radius: 3em;   
+    padding: 0 3em;
+    color: white;
+}
+
+fieldset {
+    border: 1px solid white;
+    padding: 1em;
+    margin-top: 1em;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    line-height: 25px;
+}
+
+.text {
+    text-align: center;
+    padding-top: 1em;
+}
+
+.w11w10 {
+    display: flex;
+    gap: 3em;
+    font-size: 20px;
+    margin-left: 4em;
+}
+

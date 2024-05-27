@@ -1,0 +1,50 @@
+.content {
+    width: 70vw;
+    background: #96383c;
+    border-radius: 3em;   
+    padding: 0 3em;
+    color: white;
+    
+}
+#SS-6 {
+    width: 30vw;
+    height: 30vh;
+    padding-left: 100px;
+}
+#ss9 {
+    width: 30vw;
+    height: 30vh;
+    padding-left: 100px;
+}
+fieldset {
+    border: 1px solid white;
+    padding: 1em;
+    margin-top: 1em;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    line-height: 25px;
+}
+.text {
+    text-align: center;
+}
+.w11w10 {
+    display: flex;
+    gap: 3em;
+    font-size: 20px;
+    margin-left: 4em;
+}
+.text1 {
+    font-size: 20px;
+    margin-left: 1em;
+}
+#BMS {
+    border: none; 
+    background: #fefefe; 
+    padding: 8px;
+    font-size: 1em; 
+    font-weight: 700; 
+    border-radius: 5px; 
+    margin-top: 2em; 
+    cursor: pointer;
+}

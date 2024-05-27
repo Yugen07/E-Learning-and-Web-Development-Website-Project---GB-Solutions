@@ -1,0 +1,56 @@
+.content {
+    width: 70vw;
+    margin-inline-start: 20px;
+    padding: 2.5em;
+    border-radius: 3em;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "first second";
+}
+
+ #first-content {
+    grid-area: first;
+ }
+
+ #second-content {
+    grid-area: second;
+    padding-inline-start: 40px;
+ }
+
+ #first-wrapper, #second-wrapper {
+    height: 30em;
+ }
+
+.content h1 {
+    text-align: center;
+}
+
+hr {
+    margin-block-end: 30px;
+}
+
+.container ul li ul li {
+    list-style: square inside;
+    text-indent: 40px;
+    margin-block-end: 15px;
+}
+
+.container ul li, h2 {
+    color: white;
+}
+
+.container ul li h2 {
+    margin-block-end: 15px;
+}
+
+.container ul li h2 a {
+    text-decoration: none;
+}
+
+.container ul li a {
+    text-decoration: underline;
+    color: white;
+}

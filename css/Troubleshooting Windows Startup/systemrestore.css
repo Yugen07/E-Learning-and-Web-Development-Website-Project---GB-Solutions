@@ -1,0 +1,38 @@
+
+.content {
+    width: 70vw;
+    background: #a4161a;
+    border-radius: 3em;   
+    padding: 0 3em;
+    margin-inline-start: 20px;
+    color: white;
+}
+
+fieldset {
+    border: 1px solid white;
+    padding: 1em;
+    margin-top: 1em;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    line-height: 25px;
+}
+
+.text {
+    text-align: center;
+}
+
+.options {
+    display: flex;
+    gap: 3em;
+    font-size: 20px;
+    justify-content: center;
+}
+#op1 a, #op2 a, #op3 a{
+    color: white;
+}
+.steps {
+    margin-top: 1em; 
+    list-style-type: square; 
+    margin-left: 2em;
+}

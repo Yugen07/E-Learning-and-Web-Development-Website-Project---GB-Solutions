@@ -1,0 +1,61 @@
+.content {
+    height: 230vh;
+    width: 70vw;
+    margin-inline-start: 20px;
+    padding: 2.5em;
+    border-radius: 3em;
+}
+
+.content h1 {
+    text-align: center;
+}
+
+.description p {
+    padding-block-start: 20px;
+    color: white;
+    line-height: 30px;
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
+.description h2 {
+    padding-block-start: 20px;
+    color: white;
+}
+
+.description p a {
+    text-decoration: underline;
+    color: white;
+}
+
+
+figure {
+    height: 85vh;
+    float: left;
+    display: grid;
+    place-content: center;
+    /* border: 2px solid black; */
+}
+
+figcaption {
+    translate: 100px -80px;
+}
+
+figcaption h2 {
+    color: white;
+}
+
+#social-media-aboutus {
+    display: flex;
+    column-gap: 10px;
+    margin-block-start: 20px;
+}
+
+#social-media-aboutus li img {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    clip-path: circle();
+    border: 2px solid white;
+    
+}
